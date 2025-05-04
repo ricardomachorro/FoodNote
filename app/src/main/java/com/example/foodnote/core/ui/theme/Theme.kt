@@ -1,4 +1,4 @@
-package com.example.foodnote.ui.theme
+package com.example.foodnote.core.ui.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.example.foodnote.ui.theme
+package com.example.foodnote.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
