@@ -22,6 +22,8 @@ import com.example.foodnote.core.ui.theme.YellowBase
 @Composable
 fun WelcomeScree(){
 
+
+
     Box(
         modifier = Modifier
             .fillMaxSize()
