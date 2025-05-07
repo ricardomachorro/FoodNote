@@ -12,14 +12,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.foodnote.core.ui.theme.FoodNoteTheme
-import com.example.foodnote.features.welcome.presentation.WelcomeScree
+import com.example.foodnote.features.welcome.presentation.WelcomeScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            WelcomeScree()
+            WelcomeScreen()
         }
     }
 }

@@ -20,7 +20,7 @@ import com.example.foodnote.core.ui.theme.YellowBase
 
 
 @Composable
-fun WelcomeScree(){
+fun WelcomeScreen(){
 
 
 
