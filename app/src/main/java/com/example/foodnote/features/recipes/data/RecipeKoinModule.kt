@@ -1,7 +1,9 @@
 package com.example.foodnote.features.recipes.data
 
-import androidx.lifecycle.viewmodel.compose.viewModel
+
 import com.example.foodnote.features.recipes.domain.RecipeRepository
+import com.example.foodnote.features.recipes.presentation.RecipeViewModel
+import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 
