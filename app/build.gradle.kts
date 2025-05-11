@@ -52,6 +52,7 @@ dependencies {
 
     implementation ("io.insert-koin:koin-android:3.5.3")
     implementation ("io.insert-koin:koin-androidx-compose:3.5.3")
+    implementation("io.insert-koin:koin-androidx-viewmodel:3.5.3 ")
 
     implementation("io.coil-kt.coil3:coil-compose:3.1.0")
     implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
