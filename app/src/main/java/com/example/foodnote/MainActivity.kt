@@ -13,7 +13,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.foodnote.core.ui.theme.FoodNoteTheme
 import com.example.foodnote.features.recipes.data.recipeKoinModule
+import com.example.foodnote.features.recipes.presentation.RecipeScreen
 import com.example.foodnote.features.welcome.presentation.WelcomeScreen
+import org.koin.android.ext.android.get
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -26,7 +28,8 @@ class MainActivity : ComponentActivity() {
             modules(recipeKoinModule)
         }
         setContent {
-            WelcomeScreen()
+            //WelcomeScreen()
+            RecipeScreen( viewModel = get())
         }
     }
 }
